@@ -8,8 +8,17 @@ body {
   height: 100vh;
 }
 
-a {
-  margin-left: 10px;
+nav {
+  margin: 0.5em;
+  font-size: 18px;
+  text-align: center;
+  background-color: #e7a01c;
+  text-decoration: none;
+  border-radius: 20px;
+  width: 130px;
+}
+
+/* a {
   font-size: 18px;
   text-align: center;
   background-color: #e7a01c;
@@ -18,13 +27,13 @@ a {
   width: 130px;
   display: block;
   transition: 0.5s;
-}
+} */
 
-a:hover {
+/* a:hover {
   width: 160px;
   background-color: red;
   transition: 0.7s;
-}
+} */
 
 h1 {
   padding-top: 110px;
