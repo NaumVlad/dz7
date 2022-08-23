@@ -10,29 +10,16 @@ body {
   text-align: center;
 }
 
-.link {
-  clear: both;
-  height: 30px;
-  text-align: center;
-  background-color: rgb(240, 174, 75);
-  border-radius: 20px;
-  width: 70px;
-  margin: 0.5em;
-  padding-top: 5px;
-  font-family: sans-serif;
-  font-weight: 600;
-}
-
-/* nav {
+nav {
   width: calc(100vw - 1em);
   margin: 0.5em;
   background-color: #e7a01c;
   text-decoration: none;
   border-radius: 20px;
   width: 130px;
-} */
+}
 
-/* a {
+a {
   font-size: 18px;
   text-align: center;
   background-color: #e7a01c;
@@ -41,17 +28,16 @@ body {
   width: 130px;
   display: block;
   transition: 0.5s;
-} */
+}
 
-/* a:hover {
+a:hover {
   width: 160px;
   background-color: red;
   transition: 0.7s;
-} */
+}
 
 h1 {
   padding-top: 110px;
-
 }
 
 section {
