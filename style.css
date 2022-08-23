@@ -9,12 +9,14 @@ body {
 }
 
 h1 {
-  padding-top: 100px;
+  padding-top: 110px;
   text-align: center;
 }
 
 p {
-  font-size: 12px;
+  font-size: 18px;
+  text-align: center;
+  padding-inline: 20px;
 }
 
 section {
