@@ -8,6 +8,40 @@ body {
   height: 100vh;
 }
 
-.body {}
+h1 {
+  padding-top: 100px;
+  text-align: center;
+}
 
-.cards {}
+section {
+  padding-inline: 20px;
+  margin: 0.5em;
+  width: calc(33.33vw - 1.2em);
+  height: calc(33.33vh - 1em);
+  display: inline-block;
+  background-color: red;
+  background-size: 150px;
+  background-position: center 10%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.cards1 {
+  background-image: url(/dz7/image/kisspng-2017-jeep-compass-chrysler-dodge-car-jeep-compass-5b1a866991b3f6.1505027515284650015968.png);
+}
+
+.cards2 {}
+
+.cards3 {}
+
+.cards4 {}
+
+.cards5 {}
+
+.cards6 {}
+
+.cards7 {}
+
+.cards8 {}
+
+.cards9 {}
