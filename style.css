@@ -8,13 +8,22 @@ body {
   height: 100vh;
 }
 
-header,
 a {
   margin-left: 10px;
+  font-size: 18px;
   text-align: center;
-  background-color: red;
-  width: 100px;
+  background-color: #e7a01c;
   text-decoration: none;
+  border-radius: 20px;
+  width: 130px;
+  display: block;
+  transition: 0.5s;
+}
+
+a:hover {
+  width: 160px;
+  background-color: red;
+  transition: 0.7s;
 }
 
 h1 {
@@ -32,7 +41,7 @@ section {
   width: calc(33.33vw - 1.2em);
   height: calc(33.33vh - 1em);
   display: inline-block;
-  background-color: red;
+  background-color: #e7a01c;
   background-size: 150px;
   background-position: center 10%;
   background-repeat: no-repeat;
