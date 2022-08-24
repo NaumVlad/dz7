@@ -10,31 +10,6 @@ body {
   text-align: center;
 }
 
-div {
-  margin: 0.5em;
-  /*   display: block; */
-  background-color: #e7a01c;
-  text-decoration: none;
-  border-radius: 20px;
-  width: 130px;
-  height: 30px;
-}
-
-/* a {
-  background-color: #e7a01c;
-  text-decoration: none;
-  border-radius: 20px;
-  width: 130px;
-  display: block;
-  transition: 0.5s;
-}
-
-a:hover {
-  width: 160px;
-  background-color: red;
-  transition: 0.7s;
-} */
-
 h1 {
   padding-top: 110px;
 }
@@ -49,6 +24,12 @@ section {
   background-position: center 10%;
   background-repeat: no-repeat;
   border-radius: 20px;
+  transition: 1s;
+}
+
+section:hover {
+  box-shadow: 10px 5px 5px black;
+  transition: 0.7s;
 }
 
 .cards1 {
@@ -84,43 +65,5 @@ section {
 }
 
 .cards9 {
-  background-image: url(/image/land_rover_PNG16.png);
-}
-
-.float {}
-
-.img1 {
-  background-image: url(/image/acura_PNG118.png);
-}
-
-.img2 {
-  background-image: url(/image/audi_PNG99482.png);
-}
-
-.img3 {
-  background-image: url(/image/bmw_PNG99543.png);
-}
-
-.img4 {
-  background-image: url(/image/rolls_royce_PNG12.png);
-}
-
-.img5 {
-  background-image: url(/image/maserati_PNG102.png);
-}
-
-.img6 {
-  background-image: url(/image/nissan_PNG68.png);
-}
-
-.img7 {
-  background-image: url(/image/bentley_PNG32.png);
-}
-
-.img8 {
-  background-image: url(/image/ferrari_PNG10647.png);
-}
-
-.img9 {
   background-image: url(/image/land_rover_PNG16.png);
 }
